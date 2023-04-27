@@ -1,0 +1,28 @@
+.main {
+  min-height: calc(100vh - 64px);
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  background-color: #fefefe;
+  border-radius: 4px;
+  gap: 8px;
+}
+
+.client_data {
+  border: 1px solid green;
+}
+
+.form_row {
+  display: flex;
+}
+
+.form_item {
+  border: 1px solid red;
+  width: 100%;
+
+  label {
+    display: flex;
+    flex-direction: column;
+  }
+}
